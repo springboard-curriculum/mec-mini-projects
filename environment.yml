@@ -1,5 +1,5 @@
 
-name: springboard-mec
+name: mec-miniprojects
 channels:
   - defaults
 dependencies:
