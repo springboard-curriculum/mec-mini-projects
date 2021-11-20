@@ -14,3 +14,7 @@ Thumbs.db
 
 # VSCode
 .vscode/*
+
+# Idea
+.idea/*
+*/.idea/*
