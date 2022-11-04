@@ -174,3 +174,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+mec-17.4.1-recommendation-systems-mini-project/data/combined_data.csv.zip
+mec-17.4.1-recommendation-systems-mini-project/data/ff2m5p3itmp
+mec-17.4.1-recommendation-systems-mini-project/data/skeao0attmp
+mec-17.4.1-recommendation-systems-mini-project/data/tp8rmfoftmp
+mec-17.4.1-recommendation-systems-mini-project/data/u3w6iuzptmp
+mec-17.4.1-recommendation-systems-mini-project/data/movie_titles.csv
