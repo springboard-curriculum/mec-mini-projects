@@ -12,11 +12,10 @@ class QuotesSpider(scrapy.Spider):
         yield scrapy.Request(url, self.parse)
 
     def parse(self, response):
-        for quote in response.xpath('/html/body/div/div/div/div'):
-            print(quote)
+        for quote in response.xpath("//div[contains(@class, 'quote')]"):
             yield {
-                'text': quote.css('//span/text').get(),
-                'author': quote.css('small.author::text').get(),
+                'text': quote.xpath("span[contains(@class, 'text')]/text()").get(),
+                'author': quote.xpath("span/small[contains(@class, 'author')]/text()").get(),
             }
 
         next_page = response.css('li.next a::attr(href)').get()
